@@ -1,0 +1,30 @@
+.statusBar {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: 1rem;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: auto;
+}
+
+.userStatus {
+  width: 0%;
+  height: 0.5rem;
+  background-color: var(--purple);
+  border-radius: 15px;
+  margin-left: 0.25rem;
+}
+
+.status-bar-toggle {
+  background-color: var(--gray-400);
+}
+
+//900px
+@media (max-width: 56.25rem) {
+  .statusBar {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}

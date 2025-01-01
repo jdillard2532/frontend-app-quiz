@@ -1,0 +1,13 @@
+.btn {
+  display: none;
+  border: none;
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 15px;
+  font-size: 1.75rem;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}

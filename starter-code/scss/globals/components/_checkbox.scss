@@ -1,0 +1,68 @@
+.toggle {
+  position: relative;
+  width: 48px;
+  height: 28px;
+  background-color: var(--purple);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  .thumb {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    // left: 3px;
+    left: 24px;
+    background-color: var(--white);
+    border-radius: 50%;
+    transform: transform 0.3s;
+  }
+  .shift {
+    left: 3px;
+  }
+}
+
+.toggle-light {
+  background: url(/starter-code/assets/images/pattern-background-desktop-light.svg);
+  background-color: var(--gray-100);
+  color: var(--gray-400);
+}
+.bg-dark {
+  background: url(/starter-code/assets/images/pattern-background-desktop-dark.svg);
+}
+.bg-light {
+  background: var(--gray-100)
+    url(/starter-code/assets/images/pattern-background-desktop-light.svg);
+}
+
+.letter-toggle {
+  color: var(--gray-400);
+}
+.activeLetter {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.letterHover {
+  background-color: #f6e7ff;
+  color: var(--purple);
+}
+
+.incorrectLetter {
+  background-color: var(--red);
+  color: var(--white);
+}
+.correctLetter {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.choice-toggle {
+  background-color: var(--gray-400);
+}
+
+.toggle-dark::before {
+  transform: translateX(30px);
+}
