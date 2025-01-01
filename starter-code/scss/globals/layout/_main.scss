@@ -3,7 +3,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: "./starter-code/assets/images/pattern-background-desktop-dark.svg";
+  background: url(/starter-code/assets/images/pattern-background-desktop-dark.svg);
   background-size: cover;
   .container {
     display: grid;
