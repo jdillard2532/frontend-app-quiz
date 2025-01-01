@@ -243,9 +243,6 @@ ul li div p {
 .resultsDiv .result-toggle {
   background-color: var(--white);
 }
-.resultsDiv .body-toggle {
-  background-color: var(--gray-100);
-}
 .resultsDiv .score {
   font-size: 3.625rem;
   font-size: clamp(3.625rem, 2.4288793103rem + 5.1034482759vw, 5.9375rem);
