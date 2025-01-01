@@ -17,6 +17,10 @@ h1 {
   font-weight: 400;
 }
 
+ul {
+  margin: 0;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -119,7 +123,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/starter-code/assets/images/pattern-background-desktop-dark.svg);
+  background: url(../starter-code/assets/images/pattern-background-desktop-dark.svg);
   background-size: cover;
 }
 main .container {
@@ -127,6 +131,7 @@ main .container {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   margin: 2rem;
   max-width: 72.5rem;
+  height: 100%;
 }
 main .container .light-dark-div {
   display: flex;
