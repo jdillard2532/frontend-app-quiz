@@ -6,6 +6,10 @@ body {
   color: var(--gray-100);
 }
 
+.body-toggle {
+  background-color: var(--gray-100);
+}
+
 h1,
 p {
   margin: 0;
@@ -238,6 +242,9 @@ ul li div p {
 }
 .resultsDiv .result-toggle {
   background-color: var(--white);
+}
+.resultsDiv .body-toggle {
+  background-color: var(--gray-100);
 }
 .resultsDiv .score {
   font-size: 3.625rem;
