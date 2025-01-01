@@ -7,4 +7,4 @@
 
 ### Links
 
-- Live Site URL: [https://jdillard2532.github.io/app-frontend-quiz/]
+- Live Site URL: [https://jdillard2532.github.io/frontend-app-quiz/]
