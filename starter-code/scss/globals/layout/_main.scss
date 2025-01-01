@@ -10,6 +10,7 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     margin: 2rem;
     max-width: 72.5rem;
+    height: 100%;
     .light-dark-div {
       display: flex;
       justify-content: end;
