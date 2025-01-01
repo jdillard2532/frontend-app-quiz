@@ -26,6 +26,7 @@ const ulList = document.querySelector("ul");
 const errorDiv = document.createElement("div");
 const userStatus = document.querySelector(".userStatus");
 const statusBar = document.querySelector(".statusBar");
+const body = document.querySelector("body");
 
 let numberArray = [];
 let counter = 1;
@@ -56,6 +57,7 @@ toggle.addEventListener("click", function () {
   resultImage.classList.toggle("result-toggle");
   remainder.classList.toggle("remainder-toggle");
   statusBar.classList.toggle("status-bar-toggle");
+  body.classList.toggle("body-toggle");
 
   if (main.classList.contains("toggle-light")) {
     for (let i = 0; i < questionList.length; i++) {
